@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: "nunito", sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+
+.full-screen-container {
+    background-image: url("register.png");
+    height: 110vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: hsla(46, 4%, 10%, 0.6);
+    padding: 25px 30px;
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+p {
+    color: hsla(39, 11%, 66%);
+}
+
+.login-title {
+    color: hsla(39, 11%, 66%);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font: size 2.5em;
+    font-weight: normal;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+
+.input-groupp label {
+    color: hsla(39, 11%, 66%);
+    font-weight: lighter;
+    font: 1.5em;
+    padding: 1rem;
+    padding-right: 1em 1px;
+
+}
+
+.input-group label {
+    color: hsla(39, 11%, 66%);
+    font-weight: lighter;
+    font: 1.5em;
+}
+
+.input-group input {
+    background-color: hsla(77, 4%, 10%, 0.3);
+    border: 1px solid hsla(77, 4%, 10%);
+    outline: none;
+    font-size: 1.5em;
+    padding: .1em .25em;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.input-group input select {
+    background-color: hsla(77, 4%, 10%, 0.3);
+    border: 1px solid hsla(77, 4%, 10%);
+    outline: none;
+    font-size: 1.5em;
+    padding: .1em .25em;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.input-group input:focus {
+    border: 1px solid hsla(77, 4%, 50%);
+}
+
+.login-button {
+    background-color: hsla(77, 43%, 46%, 0.1);
+    border: 1px solid hsla(39, 11%, 66%);
+    outline: none;
+    padding: 10px 30px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: hsla(39, 11%, 66%);
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: hsla(50, 47%, 47%, 0.3);
+}
+
+.login-button:focus {
+    background-color: hsla(77, 71%, 50%, 0.5);
+}

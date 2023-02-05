@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X8uj888-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="register.css">
+    <title> Register Form</title>
+</head>
+
+<body>
+    <div class="full-screen-container">
+        <div class="login-container">
+            <h1 class="login-title">Register!</h1>
+            <form>
+                <div class="input-group">
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" placeholder="First Name" name="firstname" required>
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" placeholder="Last Name" name="lastname" required>
+                </div>
+                <!-- <p> Select a Race:</p> -->
+                <div class="input-groupp">
+                    <p> Select a Race:</p>
+                    <label for="funrun">Fun Run 5k:</label>
+                    <input type="radio" name="race" id="funrun">
+                    <label for="half">Half Marathon:</label>
+                    <input type="radio" name="race" id="half">
+                    <label for="full">Full Marathon:</label>
+                    <input type="radio" name="race" id="full">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <label for="division"> Age Group:</label>
+                    <select name="division" id="division">
+                        <option value="kids">under 18</option>
+                        <option value="youth">18-30</option>
+                        <option value="adults">30-50</option>
+                        <option value="seniors">50+</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="tickets">Tickets:</label>
+                    <select name="tickets" id="tickets">
+                        <option value="number">1</option>
+                        <option value="number">2</option>
+                        <option value="number">3</option>
+                        <option value="number">4</option>
+                        <option value="number">5</option>
+                    </select>
+                </div>
+                <button type="submit" class="login-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
